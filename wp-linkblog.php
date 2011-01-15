@@ -5,7 +5,7 @@
  */
 /*
 Plugin Name: WP Linkblog
-Plugin URI: http://andrewspittle.net/projects/wp-linkblog
+Plugin URI: http://andrewspittle.net/projects/
 Description: Filters the permalinks to look for a custom field. The custom field becomes the destination permalink ala Daring Fireball's linked list.
 Author: Andrew Spittle
 Version: 0.1
