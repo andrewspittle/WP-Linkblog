@@ -1,8 +1,8 @@
 === WP Linkblog ===
-Contributors: andrewspittle
+Contributors: andrewspittle, andrewheiss
 Tags: permalinks, linked list, link blog
 Requires at least: 3.0.4
-Tested up to: 3.0.4
+Tested up to: 3.4.1
 
 Redirects permalinks of WordPress posts with a custom field to the destination URL.
 
@@ -16,3 +16,6 @@ Redirects permalinks of WordPress posts with a custom field to the destination U
 
 = 0.1 =
 * Initial release
+
+= 0.2 =
+* Added persistent metadata input box on post edit page
