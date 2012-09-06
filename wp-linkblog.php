@@ -68,7 +68,12 @@ function linkblog_save_post( $post_id ) {
 	}
 
 	$linkblog_data = $_POST['linkblog_url'];
-	update_post_meta($post_id, 'linkblog_url', $linkblog_data);
+
+	if ($linkblog_data == "") {
+		return;
+	} else {
+		update_post_meta($post_id, 'linkblog_url', $linkblog_data);
+	}
 
 }
 
